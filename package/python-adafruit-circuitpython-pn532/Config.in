@@ -1,0 +1,10 @@
+config BR2_PACKAGE_PYTHON_ADAFRUIT_CIRCUITPYTHON_PN532
+	bool "python-adafruit-circuitpython-pn532"
+	select BR2_PACKAGE_PYTHON_ADAFRUIT_BLINKA # runtime
+	select BR2_PACKAGE_PYTHON_ADAFRUIT_CIRCUITPYTHON_BUSDEVICE # runtime
+	select BR2_PACKAGE_PYTHON_PYSERIAL # runtime
+	help
+	  CircuitPython library for controlling PN532 RFID/NFC
+	  reader-writer.
+
+	  https://github.com/adafruit/Adafruit_CircuitPython_PN532

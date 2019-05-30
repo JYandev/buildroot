@@ -1,0 +1,13 @@
+config BR2_PACKAGE_PYTHON_ADAFRUIT_BLINKA
+	bool "python-adafruit-blinka"
+	select BR2_PACKAGE_PYTHON_ADAFRUIT_PLATFORMDETECT # runtime
+	select BR2_PACKAGE_PYTHON_ADAFRUIT_PUREIO # runtime
+	select BR2_PACKAGE_PYTHON_RPIGPIO # runtime
+	select BR2_PACKAGE_PYTHON_RPI_WS281X # runtime
+	select BR2_PACKAGE_PYTHON_SPIDEV # runtime
+	select BR2_PACKAGE_PYTHON_SYSV_IPC # runtime
+	help
+	  CircuitPython APIs for non-CircuitPython versions of Python
+	  such as CPython on Linux and MicroPython.
+
+	  https://github.com/adafruit/Adafruit_Blinka

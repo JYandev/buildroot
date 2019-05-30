@@ -1,0 +1,5 @@
+# md5, sha256 from https://pypi.org/pypi/adafruit-circuitpython-busdevice/json
+md5	3863f1841c72d25c389ad8856d60db39  adafruit-circuitpython-busdevice-2.2.11.tar.gz
+sha256	6a91e341bf36e105f0a4f6556558314e4b333feceeefb8b67c58344f4fe2cdd1  adafruit-circuitpython-busdevice-2.2.11.tar.gz
+# Locally computed sha256 checksums
+sha256	f60436644e066301d4c2e8f1f0674a157b1f60e4fd5586717b99dde255cc18cd  LICENSE

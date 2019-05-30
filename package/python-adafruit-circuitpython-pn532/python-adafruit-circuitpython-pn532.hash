@@ -1,0 +1,5 @@
+# md5, sha256 from https://pypi.org/pypi/adafruit-circuitpython-pn532/json
+md5	ea4acbb8f76c0bef349b8070c070e89c  adafruit-circuitpython-pn532-2.0.5.tar.gz
+sha256	27bbacac516c281cf2ff5e0e32bbb7cc18c98d0af5b8089df445f1935ee4bda2  adafruit-circuitpython-pn532-2.0.5.tar.gz
+# Locally computed sha256 checksums
+sha256	a6448c0ac9a1407f232d998d9ed0f6cc0463f040ed653014f3b04b754d88579a  LICENSE

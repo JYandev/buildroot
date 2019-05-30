@@ -1,0 +1,5 @@
+# md5, sha256 from https://pypi.org/pypi/sysv_ipc/json
+md5	669be1dcdaa326037cd1fc93b9ae269d  sysv_ipc-1.0.0.tar.gz
+sha256	cd70548a92218ede2da499080b31e52f1d7cf60716c5cc7d468ec89e8b73c530  sysv_ipc-1.0.0.tar.gz
+# Locally computed sha256 checksums
+sha256	0d92554ea62693c30787219805b7ea9b795c16526b75c762e9824e66dedc48a3  LICENSE
