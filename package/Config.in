@@ -805,10 +805,6 @@ endif
 	source "package/python3/Config.in"
 if BR2_PACKAGE_PYTHON || BR2_PACKAGE_PYTHON3
 menu "External python modules"
-	source "package/python-adafruit-blinka/Config.in"
-  source "package/python-adafruit-circuitpython-busdevice/Config.in"
-	source "package/python-adafruit-circuitpython-pn532/Config.in"
-  source "package/python-adafruit-platformdetect/Config.in"
 	source "package/python-aioblescan/Config.in"
 	source "package/python-aiocoap/Config.in"
 	source "package/python-aioconsole/Config.in"
@@ -2248,6 +2244,15 @@ menu "Text editors and viewers"
 	source "package/nano/Config.in"
 	source "package/uemacs/Config.in"
 	source "package/vim/Config.in"
+endmenu
+
+menu "amiibrOS"
+	source "package/python-adafruit-blinka/Config.in"
+  source "package/python-adafruit-circuitpython-busdevice/Config.in"
+	source "package/python-adafruit-circuitpython-pn532/Config.in"
+  source "package/python-adafruit-platformdetect/Config.in"
+  source "package/retroarch/Config.in"
+  source "package/libretro-snes9x2010/Config.in"
 endmenu
 
 endmenu

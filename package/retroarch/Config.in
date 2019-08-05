@@ -1,0 +1,17 @@
+config BR2_PACKAGE_RETROARCH
+	bool "Retroarch"
+	depends on (BR2_PACKAGE_HAS_LIBGLES)
+  depends on (BR2_PACKAGE_HAS_LIBEGL)
+  depends on (BR2_PACKAGE_HAS_LIBOPENVG)
+  depends on (BR2_PACKAGE_ALSA_LIB)
+	depends on (BR2_PACKAGE_HAS_UDEV)
+  depends on (BR2_PACKAGE_ZLIB)
+  depends on (BR2_PACKAGE_FLAC)
+
+	help
+	  A multi emulator frontend.
+
+	  http://www.libretro.com
+
+comment "Retroarch depends on EGL or OpenGLES"
+	depends on !(BR2_PACKAGE_HAS_LIBEGL || BR2_PACKAGE_HAS_LIBGLES || BR2_PACKAGE_HAS_LIBGL)

@@ -1,0 +1,11 @@
+--- a/network/netplay/netplay_frontend.c
++++ b/network/netplay/netplay_frontend.c
+@@ -845,7 +845,7 @@
+                sizeof(architecture));
+          break;
+    }
+-   snprintf(frontend_architecture, size, "%s %s", frontend->ident, architecture);
++   snprintf(frontend_architecture, size, "%s %s@RECALBOX", frontend->ident, architecture);
+ }
+ 
+ static void netplay_announce(void)
