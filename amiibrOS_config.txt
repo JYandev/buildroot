@@ -7,8 +7,11 @@ disable_overscan=1
 # How much memory in MB to assign to the GPU.
 gpu_mem = 256
 
-# fixes rpi3 ttyAMA0 serial console
+# Fixes RPI3 ttyAMA0 serial console
 dtoverlay=pi3-miniuart-bt
 
 # Enable SPI
 dtparam=spi=on
+
+# Force audio through HDMI
+hdmi_drive=2
