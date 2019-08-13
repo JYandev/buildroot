@@ -27,3 +27,6 @@ cat amiibrOS_cmdline.txt > ${BINARIES_DIR}/rpi-firmware/cmdline.txt
 (mkdir -p ${TARGET_DIR}/usr/bin/amiibrOS/amiibo_scan \
   && cp ../subproj/amiibo_scan/amiibo_scan.py \
   ${TARGET_DIR}/usr/bin/amiibrOS/amiibo_scan)
+(mkdir -p ${TARGET_DIR}/usr/bin/amiibrOS/powerswitch \
+  && cp ../subproj/powerswitch/powerswitch.py \
+  ${TARGET_DIR}/usr/bin/amiibrOS/powerswitch)
