@@ -1,5 +1,10 @@
 # amiibrOS-buildroot
-TODO
+This repository is a fork of buildroot used to contain the version used for the
+amiibrOS project as well as a custom build scripts and a default config
+(amiibrOS_defconfig) for building amiibrOS system software.
+
+See the README contained in https://github.com/jpyankel/amiibrOS for
+instructions on how to build the amiibrOS system software.
 
 # Packages Added by amiibrOS Project
 * (Adafruit-Blinka)[https://pypi.org/project/Adafruit-Blinka/]
